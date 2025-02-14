@@ -23,13 +23,13 @@ Simply install the extension from the VS Code marketplace. Search for "MkDoc Mak
 
 **Set up an Account**
 
-You will need to create an account to use MkDoc Maker. To do this, head over to [https://mkdoc-maker.web.app/](https://mkdoc-maker.web.app/) and register. Be sure to verify your email.
+You will need to create an account to use MkDoc Maker. To do this, head over to [account setup](https://mkdocmaker.pickle-juice.co.uk) and register. Be sure to verify your email.
 
 **Set Email and Password for the Extension** 
 
 Once you have installed the extension, configure it with your account credentials . To do this, open the command palette (**Ctrl+Shift+P** or **Cmd+Shift+P**) and type "MkDoc Maker: Enter Email and Password" and select the command. Enter your details and press *Enter*
 
-![image-20241031114321368](images/CommandPalette.png)
+![image-20241031114321368](/images/CommandPalette.png)
 
 You are now ready to use MkDoc Maker.
 
@@ -40,12 +40,12 @@ You are now ready to use MkDoc Maker.
 - Add the prompt "//generate" inside your subchapter
 - Your file should look like this:
 
-![image-20241030181314732](images/image-20241030181314732.png)
+![image-20241030181314732](/images/image-20241030181314732.png)
 
 - press the "PLAY" button on the top right of your editor
 
 
-![MyFirstRun](images/MyFirstRun.gif)
+![MyFirstRun](/images/MyFirstRun.gif)
 
 - MkDoc Maker will take the information it has (not a lot at the moment) and feed this to an AI-model and insert the answer back into the document.
 - Buttons will pop up for you to "Accept" or "Reject" the suggestion. Press "Accept".
@@ -77,7 +77,7 @@ First hit Ctrl + Z until you to your original document and then add a **note** s
 
 Now the output will look something like this:
 
-![image-20241031115721413](images/MarkdownSyntaxTable.png)
+![image-20241031115721413](/images/MarkdownSyntaxTable.png)
 
 
 
@@ -96,7 +96,7 @@ Let's add this screen shot of VS Code when setting up the Extension and ask it t
 **Images**
 
 - save this image to into your `images` folder:
-  ![register](images/register.png)
+  ![register](/images/register.png)
 
 - Then insert a reference to it in your markdown file like this:
     ```markdown
@@ -104,7 +104,7 @@ Let's add this screen shot of VS Code when setting up the Extension and ask it t
     
     ## Create an account
     
-    ![register](images/register.png)
+    ![register](/images/register.png)
     
     //generate
     
@@ -151,7 +151,7 @@ I can now include this file using the `//use <filename>` command:
 
 And this is the output:
 
-![image-20241031125700213](images/commandsMenu.png)
+![image-20241031125700213](/images/commandsMenu.png)
 
 
 
@@ -263,7 +263,7 @@ Will change to:
 MkDoc Maker can help you review your text. It can fix typos, improve grammar, and even generate examples. To use this feature, simply highlight the text you want to review and right-click. MkDoc Maker will handle the rest. 
 ```
 
-![ReviewSelected](images/ReviewSelected.gif)
+![ReviewSelected](/images/ReviewSelected.gif)
 
 
 
@@ -284,7 +284,7 @@ Here an example:
 
 As before you can include any resources in your prompt, so if you already have some images or other files, include them to give more context. After a run it will generate a headings structure suggestion:
 
-![image-20241114133902867](images/headsGenerated.png)
+![image-20241114133902867](/images/headsGenerated.png)
 
 ### Generating a testplan (experimental)
 
@@ -301,7 +301,7 @@ In your `hello_mkdoc.md` document create a new chapter at the end of the documen
 
 Based on the entire document it will create test case headers. 
 
-![image-20241113162417668](images/test_output.png)
+![image-20241113162417668](/images/test_output.png)
 
 
 
@@ -345,6 +345,10 @@ MkDocMaker also integrates with the editor's context menu and the "Run" menu in 
 
 
 ## Version History
+
+0.2.1
+- update readme.md with account registration details
+
 0.2.0
 - pack with esbuild
 - release to marketplace as pre-release
