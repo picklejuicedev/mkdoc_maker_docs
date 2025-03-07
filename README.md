@@ -279,6 +279,7 @@ You can ask MkDoc Maker to make a suggestion to improve a part of text. You can 
 
 - as with other commands you can use "//review" to review a whole  chapter.
 - Alternatively you can select a section and right-click to use Review from the context menu.
+- Additional instructions can be added as notes, i.e. `// shorten this paragraph` or similar.
 
 Here is an example how you could use the review prompt:
 
@@ -349,6 +350,7 @@ You can access these commands through the Command Palette (**Cmd+Shift+P** on ma
 * **MkDocMaker: Accept suggestion:** Accepts a suggestion provided by the MkDocMaker review system.
 * **MkDocMaker: Reject suggestion:** Rejects a suggestion provided by the MkDocMaker review system.
 * **MkDocMaker: Create a demo Markdown document:** Creates a sample markdown document that can be used for first experiments.
+* **MkDocMaker: Publish document:** Will create a new markdown file with the title as name with all commands and notes stripped out.
 
 ### Menu Items
 
@@ -380,6 +382,19 @@ If you are really stuck, send us an email at support@pickle-juice.co.uk.
 
 
 ## Version History
+
+0.2.3
+- add publish command
+- fix review replacement/insert
+- fix bug when title is not in first line
+- Gemini 2.0 as defaul model
+- handle output with ```markdown formatting
+- handle outputs using //
+
+0.2.2
+- add glob pattern matcher to resources
+- updated readme
+- support for Gemini-2.0-flash model
 
 0.2.1
 - update readme.md with account registration details
