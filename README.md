@@ -245,27 +245,24 @@ Here and example:
 
   **Input:**
 
-    ```markdown
-    # Welcome to MkDoc Maker
-    
-    //summary
-    
-    ## Installing the Extension
-    
-    ...
-
+  ```markdown
+  # Welcome to MkDoc Maker
+  
+  //summary
+  
+  ## Installing the Extension
+  
   ```
+
 
   **Output:**
 
-    ```markdown
-    # Welcome to MkDoc Maker
-    
-    //ignore
-    
-    MkDoc Maker is a powerful extension for Visual Studio Code that helps you create high-quality documentation from Markdown files. It provides a range of features to streamline your documentation workflow, including prompts for generating different types of content, a review system for improving your writing, and shortcuts for common tasks. 
-    
-    
+  ```markdown
+  # Welcome to MkDoc Maker
+  
+  //ignore
+  
+  MkDoc Maker is a powerful extension for Visual Studio Code that helps you create high-quality documentation from Markdown files. It provides a range of features to streamline your documentation workflow, including prompts for generating different types of content, a review system for improving your writing, and shortcuts for common tasks. 
   ```
 
 
@@ -307,7 +304,7 @@ Here an example:
 
   # MkDoc Maker
 
-  //use folders/, commands/, prompts/
+  //use folders/*.*; commands/*.*; prompts/*.*
   //head
 
   ```
@@ -371,7 +368,7 @@ MkDocMaker also integrates with the editor's context menu and the "Run" menu in 
 
 * **Ctrl+M, Ctrl+M:**  Runs the chapter parser and executes commands.
 * **Ctrl+M, Ctrl+R:**  Reviews the selected text. 
-* **Ctrl+M, Ctrl+Y: Accept the text generation. ("**Y**es")
+* **Ctrl+M, Ctrl+Y:**  Accept the text generation. ("**Y**es")
 * **Ctrl+M, Ctrl+N**: Reject the text generation ("**N**o")
 
 ## Support
