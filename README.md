@@ -95,8 +95,8 @@ Let's add this screen shot of VS Code when setting up the Extension and ask it t
 
 **Images**
 
-- save this image to into your `images` folder:
-  ![register](/images/register.png)
+- save this image to into your `images` folder: 
+  ![register](/images/registerNew.png)
 
 - Then insert a reference to it in your markdown file like this:
     ```markdown
@@ -379,6 +379,14 @@ If you are really stuck, send us an email at support@pickle-juice.co.uk.
 
 
 ## Version History
+
+0.2.5
+- auto-complete path with //use command
+- pop-up with resources and images used
+
+0.2.4
+- update icon
+- make sign-up easier
 
 0.2.3
 - add publish command
